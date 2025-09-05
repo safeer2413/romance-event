@@ -1,17 +1,59 @@
-<<<<<<< HEAD
-# React + Vite
+# 💖 Romance Event Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Event Management landing page built with **React**, **Vite**, and **Tailwind CSS**. Designed to showcase your wedding, corporate, or destination event services with elegance and interactivity.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features ✨
 
-## Expanding the ESLint configuration
+- 🎨 **Animated Hero Section**: Engaging visuals with smooth animations.  
+- 🔢 **Interactive Counters**: Real-time statistics for clients, events, and experience.  
+- 💥 **Ripple Effect Buttons**: Stylish, interactive call-to-action buttons.  
+- 📱 **Responsive Design**: Optimized for desktop and mobile devices.  
+- ⚡ **Lightweight Build**: Fast loading times with optimized assets.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# romance-event
-"Romance Event – A modern Event Management landing page built with Vite + React + Tailwind"
->>>>>>> fc6aaadf4d656bf45ab2d48466a9c87330b9579a
+---
+
+## 🛠️ Technologies Used 🖥️
+
+- ⚛️ **Frontend**: React, Vite, Tailwind CSS  
+- 🎞️ **Animation**: Framer Motion  
+- 🖋️ **Icons**: Heroicons, FontAwesome  
+- 🔤 **Fonts**: Google Fonts (e.g., Inter, Lobster)
+
+---
+
+## 📂 Project Structure 📁
+
+romance-event/
+├─ public/
+│   └─ images
+│    ├─ hero-section.png
+│    └─ gallery.png
+├─ src/
+│ ├─ assets/
+│ │ └─ images...
+│ ├─ components/
+│ │ └─ HeroSection.js
+│ ├─ pages/
+│ │ └─ Home.js
+│ ├─ App.js
+│ └─ main.jsx
+├─ package.json
+└─ vite.config.js
+
+---
+
+## 📸 Screenshots 🌟
+
+![Hero Section](./public/images/hero-section.png)  
+*💖 Hero section with animated counters.*
+
+![Gallery](./public/images/gallery.png)  
+*🎉 Gallery view of events.*
+
+---
+
+## 🌐 Live Demo 🌈
+
+[🚀 View Live Demo](https://your-live-demo-url.netlify.app)
