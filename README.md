@@ -56,4 +56,5 @@ romance-event/
 
 ## 🌐 Live Demo 🌈
 
-[🚀 View Live Demo](https://your-live-demo-url.netlify.app)
+[🚀 View Live Demo](https://romance-event-management.vercel.app/
+)
