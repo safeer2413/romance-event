@@ -27,8 +27,8 @@ export default function Testimonials() {
     const data = [
         { q: "They handled décor, food and coordination flawlessly.", a: "Riyas Khan, Trivandrum", img: "/Images/RiyasKhan.jpg" },
         { q: "Transparent pricing and timely delivery.", a: "Sumeer, Trivandrum", img: "/Images/SumeerNew.jpg" },
+        { q: "Professional team with great taste.", a: "Ajin Thomas, Kollam", img: "/Images/Ajin.jpg" },
         { q: "From invites to after-party, they nailed it.", a: "Safeer Khan, Trivandrum", img: "/Images/Safeerkhan.png" },
-        { q: "Professional team with great taste.", a: "Rahul, Bengaluru", img: "https://i.pravatar.cc/150?img=12" },
         { q: "They made our day unforgettable!", a: "Nikhil, Hyderabad", img: "https://i.pravatar.cc/150?img=18" },
     ];
 
