@@ -13,7 +13,7 @@ function TestimonialCard({ t }) {
                 <img
                     src={t.img}
                     alt={t.a}
-                    
+
                     className="w-20 h-20 rounded-full object-cover border-2 border-rose-200"
                 />
                 <footer className="text-sm font-extrabold text-gray-900">{t.a}</footer>
@@ -28,19 +28,19 @@ export default function Testimonials() {
         { q: "They handled décor, food and coordination flawlessly.", a: "Riyas Khan, Trivandrum", img: "/Images/RiyasKhan.jpg" },
         { q: "Transparent pricing and timely delivery.", a: "Sumeer, Trivandrum", img: "/Images/SumeerNew.jpg" },
         { q: "Professional team with great taste.", a: "Ajin Thomas, Kollam", img: "/Images/Ajin.jpg" },
+        { q: "They made our day unforgettable!", a: "Mohamed Ashiq, Ernakulam", img: "/Images/Ashik Achu.jpg" },
         { q: "From invites to after-party, they nailed it.", a: "Safeer Khan, Trivandrum", img: "/Images/Safeerkhan.png" },
-        { q: "They made our day unforgettable!", a: "Nikhil, Hyderabad", img: "https://i.pravatar.cc/150?img=18" },
     ];
 
     return (
         <section id="testimonials" data-aos="zoom-out-down" data-aos-offset="200" className="py-12 bg-gradient-to-b from-white to-red-300 relative">
-            <div  className="max-w-7xl mx-auto px-4 relative">
+            <div className="max-w-7xl mx-auto px-4 relative">
                 <h2 className="text-4xl md:text-5xl font-extrabold text-center tracking-tight mb-14">
                     What <span className="text-rose-600 italic">Clients</span> Say
                 </h2>
 
                 {/* Custom Arrows (TOP, full width) */}
-                <div className="absolute inset-1 flex items-center justify-between px-5 z-20">
+                <div className="absolute inset-0 flex items-center justify-between px-5 z-20 mt-8">
                     <button className="custom-prev bg-white p-3 rounded-full shadow hover:bg-rose-100">
                         <ChevronLeft className="w-6 h-6 text-rose-500" />
                     </button>

@@ -9,18 +9,12 @@ export default {
       colors: {
         primary: '#5851D8',
         accent: '#00D4FF',
-      }
-    },
-  },
-  darkMode: 'class',
-  plugins: [],
-
-  theme: {
-    extend: {
+      },
       fontFamily: {
         federant: ['"Federant"', 'serif'],
       },
     },
   },
-
+  darkMode: 'class',
+  plugins: [],
 }

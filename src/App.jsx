@@ -18,7 +18,6 @@ function App() {
       easing: "ease-in-out",
       once: false,
       mirror: true,
-      offset: 200
     });
     AOS.refresh(); // refresh positions after DOM renders
   }, []);

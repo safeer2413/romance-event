@@ -9,14 +9,17 @@ function Navbar() {
     return (
         <>
             {/* Top Bar */}
-            <header className="w-full bg-red-300 backdrop-blur sticky top-0 z-40">
+            <header className="w-full bg-red-300 backdrop-blur sticky top-0 z-40 rounded-t-sm">
 
                 <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between ">
                     {/* Logo */}
                     <a href="#home" className="flex items-center transform transition-transform duration-300 hover:scale-110">
                         <LogoSVG />
                     </a>
-
+                    <p className="text-xs text-rose-600 italic opacity-25
+             text-center">
+                        © {new Date().getFullYear()} SafeerKhan. All projects in this portfolio are my own work. All rights reserved.
+                    </p>
                     {/* Desktop Nav */}
                     <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
                         <a href="#services" className="hover:text-rose-600 font-bold">Services</a>
@@ -25,7 +28,6 @@ function Navbar() {
                         <a href="#testimonials" className="hover:text-rose-600 font-bold">Testimonials</a>
                         <a href="#faq" className="hover:text-rose-600 font-bold">FAQ</a>
                         <Button
-                            as="a"
                             href="#contact"
                             className="px-4 py-2 rounded-full bg-rose-600 text-white"
                         >
@@ -74,7 +76,6 @@ function Navbar() {
                     ))}
 
                     <Button
-                        as="a"
                         href="#contact"
                         onClick={() => setIsOpen(false)}
                         className="px-5 py-2 rounded-full bg-rose-600 text-white hover:bg-rose-700 transition"

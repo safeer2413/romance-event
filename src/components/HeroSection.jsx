@@ -67,7 +67,7 @@ export default function HeroSection() {
                             View Gallery
                         </Button>
                     </div>
-
+                    ``
                     {/* 👉 Animated Counters */}
                     <div className="mt-8 grid grid-cols-3 gap-6 text-center">
                         {[
@@ -105,13 +105,13 @@ export default function HeroSection() {
                         src="https://www.wedding-spot.com/blog/sites/wsblog/files/images/migrated/196-affordable%2Boutdoor%2Bwedding%2Bvenue%2Boverlooking%2Bwater.jpg"
                         alt="Banquet"
                         loading="lazy"
-                        className="md:block absolute -bottom-8 -left-8 w-48 h-48 object-cover rounded-2xl shadow-lg border-4 border-white"
+                        className="absolute -bottom-4 -left-2 w-48 h-48 object-cover rounded-2xl shadow-lg border-4 border-white"
                     />
                     <img
                         src="https://en.idei.club/uploads/posts/2023-06/1686470907_en-idei-club-p-luxurious-banquet-hall-dizain-8.jpg"
                         alt="Decor"
                         loading="lazy"
-                        className="md:block absolute -top-8 -right-8 w-48 h-48 object-cover rounded-2xl shadow-lg border-4 border-white"
+                        className="absolute -top-4 -right-2 w-48 h-48 object-cover rounded-2xl shadow-lg border-4 border-white"
                     />
                 </motion.div>
             </div>
